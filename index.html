@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+</head>
+<body>
+    <img style="height: 7%; width: 3.78%" id="reddana" src="https://www.pngall.com/wp-content/uploads/5/Red-Ball-Transparent.png" alt="">
+    <img style="height: 7%; width: 3.78%" id="greendana" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Green_pog.svg/1024px-Green_pog.svg.png" alt="">
+    <img style="height: 7%; width: 4%" id="yellowdana" src="https://png.pngtree.com/element_our/20190601/ourmid/pngtree-round-yellow-ball-decoration-image_1357705.jpg" alt="">
+    <img  style="height: 7%; width: 4%" id="bluedana" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuzkmlRXCLgPJWSQ9l15KmvXZdt5xqN58LHMv3Hs_6xGs0jVom9BLJiTGKvKuyfT8R5YU&usqp=CAU" alt="">
+    <!-- <img src="" alt=""> -->
+    <div class="displayText">
+        <div id="display">dfdf</div>
+    </div>
+    
+    <div class="container">
+        <div class="inner-container">
+            <div class="red">
+                <div id="red-circle-1" class="circle"></div>
+                <div id="red-circle-2" class="circle"></div>
+                <div id="red-circle-3" class="circle"></div>
+                <div id="red-circle-4" class="circle"></div>
+            </div>
+            <div id="id6" class="cell"></div>
+            <div id="id7" class="cell"></div>
+            <div id="id8" class="cell"></div>
+            <div id="id5" class="cell"></div>
+            <div id="id116" class="cell green-house"></div>
+            <div id="id9" class="cell star"></div>
+            <div id="id4" class="cell star"></div>
+            <div id="id117" class="cell green-house"></div>
+            <div id="id10" class="cell"></div>
+            <div id="id3" class="cell"></div>
+            <div id="1d118" class="cell green-house"></div>
+            <div id="id11" class="cell"></div>
+            <div id="id2" class="cell"></div>
+            <div id="id119" class="cell green-house"></div>
+            <div id="id12" class="cell"></div>
+            <div id="id1" class="cell"></div>
+            <div id="id120" class="cell green-house"></div>
+            <div id="id13" class="cell"></div>
+            <div class="green">
+                <div id="green-circle-1" class="circle"></div>
+                <div id="green-circle-2" class="circle"></div>
+                <div id="green-circle-3" class="circle"></div>
+                <div id="green-circle-4" class="circle"></div>
+            </div>
+        </div>
+        <div class="between">
+            <div id="id47" class="cell"></div>
+            <div id="id48" class="cell star"></div>
+            <div id="id49" class="cell"></div>
+            <div id="id50" class="cell"></div>
+            <div id="id51" class="cell"></div>
+            <div id="id52" class="cell"></div>
+
+            <div id="dice" class="win">
+            </div>
+
+            <div id="id14" class="cell"></div>
+            <div id="id15" class="cell"></div>
+            <div id="id16" class="cell"></div>
+            <div id="id17" class="cell star"></div>
+            <div id="id18" class="cell"></div>
+            <div id="id19" class="cell"></div>
+
+            <div id="id46" class="cell"></div>
+            <div id="id100" class="cell red-house"></div>
+            <div id="id101" class="cell red-house"></div>
+            <div id="id102" class="cell red-house"></div>
+            <div id="id103" class="cell red-house"></div>
+            <div id="id104" class="cell red-house"></div>
+
+            <div id="id114" class="cell yellow-house"></div>
+            <div id="id113" class="cell yellow-house"></div>
+            <div id="id112" class="cell yellow-house"></div>
+            <div id="id111" class="cell yellow-house"></div>
+            <div id="id110" class="cell yellow-house"></div>
+            <div id="id20" class="cell"></div>
+
+            <div id="id45" class="cell"></div>
+            <div id="id44" class="cell"></div>
+            <div id="id43" class="cell star"></div>
+            <div id="id42" class="cell"></div>
+            <div id="id41" class="cell"></div>
+            <div id="id40" class="cell"></div>
+
+            <div id="id26" class="cell"></div>
+            <div id="id25" class="cell"></div>
+            <div id="id24" class="cell"></div>
+            <div id="id23" class="cell"></div>
+            <div id="id22" class="cell star"></div>
+            <div id="id21" class="cell"></div>
+
+            
+        </div>
+        <div class="inner-container">
+            <div class="blue">
+                <div id="blue-circle-1" class="circle"></div>
+                <div id="blue-circle-2" class="circle"></div>
+                <div id="blue-circle-3" class="circle"></div>
+                <div id="blue-circle-4" class="circle"></div>
+            </div>
+            <div id="id39" class="cell"></div>
+            <div id="id126" class="cell blue-house"></div>
+            <div id="id27" class="cell"></div>
+            <div id="id38" class="cell"></div>
+            <div id="id125" class="cell blue-house"></div>
+            <div id="id28" class="cell"></div>
+            <div id="id37" class="cell"></div>
+            <div id="id124" class="cell blue-house"></div>
+            <div id="id29" class="cell"></div>
+            <div id="id36" class="cell"></div>
+            <div id="id123" class="cell blue-house"></div>
+            <div id="id30" class="cell star"></div>
+            <div id="id35" class="cell star"></div>
+            <div id="id122" class="cell blue-house"></div>
+            <div id="id31" class="cell"></div>
+            <div id="id34" class="cell"></div>
+            <div id="id33" class="cell"></div>
+            <div id="id32" class="cell"></div>
+            <div class="yellow">
+                <div id="yellow-circle-1" class="circle"></div>
+                <div id="yellow-circle-2" class="circle"></div>
+                <div id="yellow-circle-3" class="circle"></div>
+                <div id="yellow-circle-4" class="circle"></div>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="ludo-grid.js"></script> -->
+    <!-- <script src="index.js"></script> -->
+    <script src="ludo.js"></script>
+</body>
+</html>
